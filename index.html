@@ -6,6 +6,10 @@
 <title>IotnestBD • Eid Mubarak</title>
 
 <style>
+<script>
+const p=new URLSearchParams(location.search).get("p")
+if(p)history.replaceState(null,null,p)
+</script>  
 
 body{
 margin:0;
